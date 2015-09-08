@@ -11,3 +11,10 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var temp_c = 25;
+var temp_f = 71;
+var fahrenheit = (temp_c*9/5) +32;
+var celsius = (temp_f - 32)*5/9;
+
+console.log(temp_c + " degree C is " + fahrenheit + " degree F");
+console.log(temp_f + " degree F is " + celsius + " degree C");
