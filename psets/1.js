@@ -10,3 +10,7 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+
+var current = 2015;
+var birth = 1990;
+console.log("They are either " + (current-birth-1) + " or " + (current-birth) );
