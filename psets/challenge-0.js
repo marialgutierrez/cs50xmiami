@@ -27,3 +27,9 @@ Write a function that will take one argument (a number) and perform the followin
 */
 
 // write your solution here...
+function squaredNumber (number)
+{
+  console.log("the result of squering the number " + number + " is "
+   + number*squaredNumber + ".")
+  return number * squaredNumber;
+}
