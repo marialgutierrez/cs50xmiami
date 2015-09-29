@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body
+    {
+        background-color: #000000;
+    }
+    p
+    {
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+        font-size:24px;
+        font-style: normal;
+        font-variant: normal;
+        color: white;
+    }
+    .arrow-up
+    {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid white;
+}
+    .arrow-down
+    {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    }
+    .arrow-left
+    {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+    }
+    #text
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    }
+    #rectangle
+    {
+        position: relative;
+        display: inline-block;
+        width : 50px;
+        height: 20px;
+        margin: 20px auto;
+        background-color: red;
+    }
+
+    .arrow-right
+    {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
+    }
+</style>
+<title>VIDEORAMA</title>
+</head>
+
+<body>
+    <top>
+    <center>
+<!--        logo-->
+        <img src="/d1z9YP.jpg" width= 400 />
+<!--        arrow up-->
+        <a href="http://10.0.0.32/?forward">
+            <div class="arrow-up">
+            </div>
+        </a>
+<!--         arrow left and right-->
+        <a href="http://10.0.0.32/?left">
+            <div class= "arrow-left">
+            </div>
+        </a>
+        &nsbp&nsbp
+        <a href="http://10.0.0.32/?right">
+            <div class= "arrow-right">
+            </div>
+        </a>
+<!--         arrow down-->
+        <a href="http://10.0.0.32/?down">
+            <div class= "arrow-down">
+            </div>
+        </a>
+        <a href="http://10.0.0.32/?stop">
+            <div id= "rectangle"><div id ="text">STOP</div>
+            </div>
+        </a>
+</center>
+</top>
+
+<middle>
+    <iframe src="http://10.0.30/default.asp" width ="100%" heigth ="300">
+    </iframe>"
+</middle>
+</body>
+
+</html>
