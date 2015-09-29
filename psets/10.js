@@ -10,3 +10,9 @@ Write a function named tellFortune that:
 */
 
 // write your solution here...
+function tellFortune(children, partner, location, job) {
+  console.log('You will be a '+ job + ' in ' + location + ', and married to ' + partner + " with " +children+ " kids.")
+};
+tellFortune(1, "Ricardo", "St. Louis", "Programmer");
+tellFortune(2, "Ricardo", "St. Louis", "Chemical engineer");
+tellFortune(3, "Ricardo", "Seattle", "Doctor");

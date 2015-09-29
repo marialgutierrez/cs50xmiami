@@ -17,5 +17,22 @@ For example:
 */
 
 function verbing(word) {
-  // write your solution here...
-}
+  if(word.length >= 3)
+  {
+      var last_three = word.substring(word.length - 3, word.length);
+      if(last_three === "ing")
+      {
+        console.log(word+"ly");
+      }
+      else {
+        console.log(word+"ing");
+      }
+  }
+  else {
+    console.log(word);
+  }
+};
+
+
+verbing("go");
+verbing("start");

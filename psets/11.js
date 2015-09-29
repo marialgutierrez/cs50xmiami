@@ -12,3 +12,10 @@ Write a function named calculateAge that:
 */
 
 // write your solution here...
+function Calculator(birth){
+var current = new Date();
+var year = current.getFullYear();
+console.log("You are either " + (year-birth-1) + " or " + (year-birth) );
+};
+
+Calculator(1990);

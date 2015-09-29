@@ -16,5 +16,13 @@ For example:
 */
 
 function notBad(sentence) {
-  // write your solution here...
-}
+  var n = sentence.search("not");
+  if(n != -1)
+  {
+    console.log(sentence.substring(0, n) + " good!");
+  }
+  else {
+    console.log(sentence);
+  }
+};
+notBad('This dinner is not bad!')

@@ -13,4 +13,17 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+  var letter = s[0];
+  var string = s[0];
+  for (var i = 1; i < s.length; i++) {
+    if(s[i] === letter)
+    {
+      string += '*';
+    }
+    else {
+      string += s[i];
+    }
+  }
+  return string;
 }
+console.log(fixStart('babble'));

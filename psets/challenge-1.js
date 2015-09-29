@@ -8,7 +8,38 @@ like Wheel of Fortune without the wheel and fortune).
 
 - Create two global arrays: one to hold the letters of the
   word (e.g. 'F', 'O', 'X'), and one to hold the current guessed letters
-  (e.g. it would start with '_', '_', '_' and end with 'F', 'O', 'X').
+  (e.g. it would start with '_', '_', '_' and end with 'F', 'O', 'X').*/
+
+var word = prompt("Tell your adversary to put write a word");
+var guess = [];
+for (var i = 0; i < word.length; i++) {
+  guess.push('_');
+}
+
+function guessLetter(letter){
+  for(var i= 0; i < word.length; i++)
+  {
+    if(letter.toUpperCase() === word[i])
+    guess[i] = word[i];
+  }
+console.log(guess);
+document.write('<h1>Congrats</h1>');
+
+for (var i = 0; i < guess.length; i++) {
+  if(guess[i]=== '_')
+  return false;
+}
+return true
+};
+do
+{
+  var done = guessLetter(prompt("Guess a letter"));
+}
+while(!done);
+document.getElementsByTagName('body')[0].innerHTML = '<h1>You guessed the word</h1>';
+console.log("You won");
+
+  /*
 
 - Write a function called guessLetter that will:
   - Take one argument, the guessed letter.
