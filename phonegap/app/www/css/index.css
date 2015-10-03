@@ -71,7 +71,9 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#000000;
+    /*background-color:#000000;*/
+    
+    background-image: url(/Users/Marial/Documents/JavaScript/cs50xmiami/phonegap/app/www/img/allfons.jpg);
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -94,7 +96,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/d1z9YP.jpg) no-repeat center top; /* 170px x 200px */
+    background-image:url(C://Users/Marial/Documents/JavaScript/cs50xmiami/phonegap/app/www/img/allfons.jpg) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:30%;
